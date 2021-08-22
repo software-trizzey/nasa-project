@@ -39,6 +39,8 @@ npm run deploy
 
 **Version 0.0.4**
 
+Added the ability to launch a new mission as well as abort an existing one.
+
 **Version 0.0.3**
 
 Implemented several npm scripts to automate the application. These scripts can
