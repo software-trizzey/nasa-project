@@ -1,6 +1,6 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.3**
+**Current Version: 0.0.4**
 
 TODO:
 
@@ -36,6 +36,8 @@ npm run deploy
 ```
 
 ### Version History
+
+**Version 0.0.4**
 
 **Version 0.0.3**
 
