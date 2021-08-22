@@ -1,6 +1,6 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.2**
+**Current Version: 0.0.3**
 
 TODO:
 
@@ -21,9 +21,26 @@ to the client.
 
 ## Getting Started
 
-To run this project, please follow the instructions below.
+To run this project in development mode, please follow the instructions below.
+
+```
+npm run install
+npm run watch
+```
+
+To run this project in a production environment, please use the following
+command.
+
+```
+npm run deploy
+```
 
 ### Version History
+
+**Version 0.0.3**
+
+Implemented several npm scripts to automate the application. These scripts can
+be found in the root package.json file.
 
 **Version 0.0.2**
 
