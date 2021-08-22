@@ -1,6 +1,6 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.1**
+**Current Version: 0.0.2**
 
 TODO:
 
@@ -24,6 +24,14 @@ to the client.
 To run this project, please follow the instructions below.
 
 ### Version History
+
+**Version 0.0.2**
+
+Added planet data to API. The data has been retrieved from the NASA
+[kepler exoplanet dataset](https://exoplanetarchive.ipac.caltech.edu/docs/data.html).
+
+The data is stored in a csv file and so a read/write stream was used to parse
+the file.
 
 **Version 0.0.1**
 
