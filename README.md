@@ -1,6 +1,6 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.4**
+**Current Version: 0.0.5**
 
 TODO:
 
@@ -36,6 +36,8 @@ npm run deploy
 ```
 
 ### Version History
+
+**Version 0.0.5** Added several API tests using the JEST testing library.
 
 **Version 0.0.4**
 
