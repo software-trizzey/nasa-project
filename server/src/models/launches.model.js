@@ -3,6 +3,7 @@ const planets = require("./planets.mongo");
 
 const DEFAULT_FLIGHT_NUMBER = 100;
 
+//TODO: NOTE THIS SHOULD FAIL BECAUSE THE TARGET PLANET DOESNT EXIST
 const launch = {
 	flightNumber: 100,
 	mission: "Kepler Exploration X",
@@ -32,6 +33,7 @@ async function getLatestFlightNumber() {
 	return latestLaunch.flightNumber;
 }
 async function getAllLaunches() {
+	// TODO: Fix issue with vs code editer auto correct
 	return await launchesDatabase.find(
 		{},
 		{
@@ -42,11 +44,9 @@ async function getAllLaunches() {
 }
 
 async function saveLaunch(launch) {
-	// TODO: Fix issue with vs code editer auto correct
 	const planet = planets.findOne({
 		keplerName: launch.target,
 	});
-
 	if (!planet) {
 		throw new Error("No matching planet was found!");
 	}
