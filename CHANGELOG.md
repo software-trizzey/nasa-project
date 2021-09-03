@@ -1,8 +1,14 @@
 # Version History
 
-## CURRENT VERSION: 0.0.6
+## CURRENT VERSION: 0.0.7
 
-**Version 0.0.6** Migrated planet data to MongoDB Atlas for persitent storage.
+**Version 0.0.7**
+
+Began implementing CI/CD pipeline using GitHub Actions.
+
+**Version 0.0.6**
+
+Migrated planet data to MongoDB Atlas for persitent storage.
 
 Began implementing SpaceX API to populate the launch history page.
 

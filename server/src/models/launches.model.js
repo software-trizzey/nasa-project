@@ -103,8 +103,8 @@ async function getAllLaunches() {
 	return await launchesDatabase.find(
 		{},
 		{
-			_id: 0,
-			__v: 0,
+			["_id"]: 0,
+			["__v"]: 0,
 		}
 	);
 }
@@ -122,7 +122,7 @@ async function saveLaunch(launch) {
 }
 
 async function sheduleNewLaunch(launch) {
-	const planet = planets.findOne({
+	const planet = await planets.findOne({
 		keplerName: launch.target,
 	});
 	if (!planet) {
