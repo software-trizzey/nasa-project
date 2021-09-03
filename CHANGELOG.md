@@ -1,6 +1,15 @@
 # Version History
 
-## CURRENT VERSION: 0.0.7
+## CURRENT VERSION: 0.0.8
+
+**Version 0.0.8**
+
+Finished implementing the CI portion of the CI/CD Pipline with GitHub Actions.
+
+It will currently build the project and perform unit and integration tests on
+the commited code.
+
+The next step will be to deploy the projec to the cloud using AWS & Docker.
 
 **Version 0.0.7**
 

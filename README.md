@@ -1,6 +1,6 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.7**
+**Current Version: 0.0.8**
 
 TODO:
 
@@ -12,11 +12,18 @@ TODO:
 The goal of this project is to create a RESTFul API that will serve planet data
 to the client.
 
+**UPDATE:** After successfully creating the backend API. I plan to practice
+using various tools to automate the project. You can view these tools in the
+stack section below.
+
 ### Stack
 
 - React
 - [ARWES Sci-Fi UI Framework](https://github.com/arwes/arwes)
 - Node.js & Express.js
+- JEST for testing
+- GitHub Actions for CI/CD Pipline
+- AWS & Docker for Cloud Hosting
 
 ## Getting Started
 
