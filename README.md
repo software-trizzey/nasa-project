@@ -1,12 +1,11 @@
 # Project: NASA Backend API
 
-**Current Version: 0.0.5**
+**Current Version: 0.0.6**
 
 TODO:
 
 - Link to live site
 - README.md project image
-- Implement backend using node/express
 
 ## Description
 
@@ -37,7 +36,13 @@ npm run deploy
 
 ### Version History
 
-**Version 0.0.5** Added several API tests using the JEST testing library.
+**Version 0.0.6** Migrated planet data to MongoDB Atlas for persitent storage.
+
+Began implementing SpaceX API to populate the launch history page.
+
+**Version 0.0.5**
+
+Added several API tests using the JEST testing library.
 
 **Version 0.0.4**
 
