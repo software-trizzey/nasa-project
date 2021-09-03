@@ -14,7 +14,8 @@ const server = http.createServer(app);
 async function startServer() {
 	await mongoConnect();
 	await loadPlanetsData();
-	await loadLaunchData();
+	// TODO: Fix issue with Mongoose populate()
+	// await loadLaunchData();
 
 	server.listen(PORT, () => {
 		console.log(`Server listening on port ${PORT}`);
