@@ -1,6 +1,6 @@
 # Project: NASA Mission Control
 
-[!Project Header](https://raw.githubusercontent.com/IM-Deane/images/main/assets/images/nasa-mission-control.jpg)
+![Project Header](https://raw.githubusercontent.com/IM-Deane/images/main/assets/images/nasa-mission-control.jpg)
 
 **Current Version: 1.0.0**
 
