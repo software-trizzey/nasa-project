@@ -1,12 +1,10 @@
 # Project: NASA Mission Control
 
+[!Project Header](https://raw.githubusercontent.com/IM-Deane/images/main/assets/images/nasa-mission-control.jpg)
+
 **Current Version: 1.0.0**
 
 Live demo site: [NASA Mission Control](http://34.222.179.139:8000/)
-
-TODO:
-
-- README.md project image
 
 ## Description
 
