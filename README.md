@@ -1,10 +1,11 @@
-# Project: NASA Backend API
+# Project: NASA Mission Control
 
-**Current Version: 0.0.8**
+**Current Version: 1.0.0**
+
+Live demo site: [NASA Mission Control](http://34.222.179.139:8000/)
 
 TODO:
 
-- Link to live site
 - README.md project image
 
 ## Description

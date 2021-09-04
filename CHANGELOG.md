@@ -1,6 +1,24 @@
 # Version History
 
-## CURRENT VERSION: 0.0.8
+## CURRENT VERSION: 1.0.0
+
+**Version 1.0.0**
+
+After some trial an error, I was able to create an AWS EC2 instance that is
+currently running the Docker container.
+
+I'm offically a Devops engineer now right?!
+
+With the site officially in production (you can find it
+[here](http://34.222.179.139:8000/)), I plan on implementing additional features
+including authentication using JWT.
+
+Stay tuned.
+
+**Version 0.0.9**
+
+Created Docker img and Container for the project and pushed it to Docker Hub.
+The next step will be to deploy the container to AWS (EC2) instance.
 
 **Version 0.0.8**
 
