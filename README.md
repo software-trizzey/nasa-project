@@ -4,7 +4,7 @@
 
 **Current Version: 1.0.0**
 
-Live demo site: [NASA Mission Control](http://34.222.179.139:8000/)
+Live demo site: [NASA Mission Control](http://35.82.32.230:8000/)
 
 ## Description
 
@@ -21,6 +21,7 @@ stack section below.
 - [ARWES Sci-Fi UI Framework](https://github.com/arwes/arwes)
 - Node.js & Express.js
 - JEST for testing
+- MongoDB Atlas
 - GitHub Actions for CI/CD Pipline
 - AWS & Docker for Cloud Hosting
 

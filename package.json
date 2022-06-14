@@ -1,7 +1,7 @@
 {
 	"name": "nasa-project",
-	"version": "0.0.2",
-	"description": "**Current Version: 0.0.2**",
+	"version": "1.0.0",
+	"description": "**Current Version:1.0.0**",
 	"main": "index.js",
 	"scripts": {
 		"install-server": "npm install --prefix server",
